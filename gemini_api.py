@@ -5,7 +5,7 @@ import json
 # --- Gemini API Configuration (Placeholder) ---
 # Replace with your actual API key and configuration
 
-API_KEY = "AIzaSyBA2N7NVl8wOanaLxr7SUnbDugioircsY8"
+API_KEY = "YOUR_GEMINI_API_KEY"  # Replace with your actual API key
 
 if API_KEY != "YOUR_GEMINI_API_KEY":
     genai.configure(api_key=API_KEY)
